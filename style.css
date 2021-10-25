@@ -1,0 +1,45 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width:80%;
+  
+    padding: 34px;
+    margin: auto; /*to bring the box in center*/
+}
+.container h1,p{
+    text-align: center;
+}
+input , textarea ,button  {
+    border: 2px solid;
+   width: 80%;
+   margin: 11px auto ;
+   padding :10px;
+   font-size: 16px;
+   border-radius: 10px;
+   outline: none;
+   display: block;/*to make the elemnt as a black element not inline*/
+
+}
+button{
+    width: auto;
+}
+.btn{
+    color: white;
+    background-color: purple;
+
+    
+}
+.bg
+{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+
+
